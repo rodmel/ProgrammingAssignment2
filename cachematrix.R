@@ -1,8 +1,6 @@
 
-
 ## This is a pair of functions that cache the inverse of matrix
 ## The two functions are "makeCacheMatrix" and "cacheSolve"
-
 
 ## This function creates a special "matrix" that can cache its inverse
 makeCacheMatrix <- function(x = matrix()) {
@@ -49,7 +47,7 @@ cacheSolve <- function(x, ...) {
 
         # if "invx" is not null, just return the cached inverse matrix data
         if(!is.null(invx)) {
-                message("data taken from cached inverse matrix")
+                message(“Data taken from cached inverse matrix")
                 return(invx)
         }
         
