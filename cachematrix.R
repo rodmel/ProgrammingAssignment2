@@ -65,6 +65,6 @@ cacheSolve <- function(x, ...) {
         x$setinverse(invx)
         
         # return the inverse of the matrix
-        invx 
+        invx
 
 }
