@@ -47,7 +47,7 @@ cacheSolve <- function(x, ...) {
 
         # if "invx" is not null, just return the cached inverse matrix data
         if(!is.null(invx)) {
-                message(“Data taken from cached inverse matrix")
+                message("Data taken from cached inverse matrix")
                 return(invx)
         }
         
